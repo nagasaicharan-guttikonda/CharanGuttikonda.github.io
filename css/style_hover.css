@@ -1,0 +1,23 @@
+  /*-----------------------------------------------------------------------------------*/
+  /*  hover css
+  /*-----------------------------------------------------------------------------------*/
+  
+
+
+.box16{text-align:center;color:#fff;position:relative}
+.box16 .box-content,.box16:after{width:100%;position:absolute;left:0}
+.box16:after{content:"";height:100%;top:0;transition:all .5s ease 0s}
+.box16 .post,.box16 .title{transform:translateY(145px);transition:all .4s cubic-bezier(.13,.62,.81,.91) 0s}
+.box16:hover:after{background:linear-gradient(to bottom,rgba(0,0,0,.01) 0,rgba(0,0,0,.09) 11%,rgba(0,0,0,.12) 13%,rgba(0,0,0,.19) 20%,rgba(0,0,0,.29) 28%,rgba(0,0,0,.29) 29%,rgba(0,0,0,.42) 38%,rgba(0,0,0,.46) 43%,rgba(0,0,0,.53) 47%,rgba(0,0,0,.75) 69%,rgba(0,0,0,.87) 84%,rgba(0,0,0,.98) 99%,rgba(0,0,0,.94) 100%)}
+.box16 img{width:100%;height:auto}
+.box16 .box-content{top:45%;opacity:0;z-index:1;-webkit-transform:translate(10%,-30%);transform:translate(10%,-30%);transition:all .2s ease-out 0s}
+.box16:hover .box-content{opacity:1;transform:translate(0,-50%);transition-delay:.2s}
+.box16 .title{display:block;font-size:22px;font-weight:700;color:#39b54a; margin-top: -65px}
+.box16 .post{display:block;font-size:15px;color:#f7f7b9;margin-bottom:20px}
+.box16 .social{padding:0;margin:0;list-style:none}
+.box16 .social li{display:inline-block}
+.box16 .social li a{display:block;width:35px;height:35px;background:#f7f7b9;border-radius:50%;font-size:17px;color:#1b1462;line-height:35px;margin-right:5px;transition:all .4s ease-in-out 0s}
+.box16 .icon li,.box14 .post{display:inline-block}
+
+@media only screen and (max-width:990px){.box13{margin-bottom:30px}
+}
