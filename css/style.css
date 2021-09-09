@@ -236,7 +236,8 @@ body {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-    background: url("../image/home-bg.jpg") repeat scroll center center / cover;
+   /* background: url("../image/home-bg.jpg") repeat scroll center center / cover;*/
+   background-color:#e0dfda;
     height: 100vh;
     width: 100%;
   }
@@ -256,16 +257,17 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
   }
   
   .header-content p {
     font-size: 13px;
     letter-spacing: 5px;
     margin-top: 0;
+	margin-left:2px;
     margin-bottom: 30px;
     text-transform: capitalize;
-    color: #fff;
+    color: black;
     font-weight: 500;
   }
   
@@ -289,8 +291,9 @@ body {
 #about {
     width: 100%;
     height: auto;
-    background: #f7f7f7;
+    background:#e0dfda;
     padding-top: 190px;
+	border:1px;
   }
   
   #about .div-img-bg {
@@ -390,6 +393,22 @@ body {
   padding: 16px 32px;
 }
 
+.table-borderless{
+  font-size: 20px;
+  width : 100%;
+}
+table {
+	border: none;
+	margin: 0 auto;
+	width : 100%;
+	padding : 15px;
+	}
+	
+.borderless td, .borderless th ,.borderless tr{
+    border: none;
+	padding :15px;
+}
+
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -399,6 +418,8 @@ body {
 #contact {
     height: auto;
     width: 100%;
+	background-color:#e0dfda;
+	
   }
   
   .contact-details {
@@ -408,7 +429,7 @@ body {
   }
   
   .contact-details li {
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 
   }
  
@@ -425,3 +446,12 @@ body {
     width:90%;
     position:absolute;
     }
+/*------------------------------------------------------------------------------------*/
+/*hr
+/*------------------------------------------------------------------------------------*/
+hr 
+{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
