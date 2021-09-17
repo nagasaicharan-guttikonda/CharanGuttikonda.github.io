@@ -429,7 +429,7 @@ table {
   }
   
   .contact-details li {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 
   }
  
@@ -454,4 +454,13 @@ hr
 width: 100%;
 margin-left: auto;
 margin-right: auto;
+}
+
+video {
+  width: 50%;
+  height: 50%;
+}
+.content-section {
+  width: 50%;
+  height: 100%;
 }
