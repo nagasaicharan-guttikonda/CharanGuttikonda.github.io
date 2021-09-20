@@ -7,7 +7,6 @@
 body {
     background: #ffffff;
     color: #898989;
-    font-family: 'Poppins', helvetica;
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
@@ -195,7 +194,7 @@ body {
   nav ul li {
     float: left;
     margin-right: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     margin-left: 40px;
   }
@@ -206,7 +205,7 @@ body {
     display: block;
     font-size: 14px;
     color: #999999;
-    font-family: 'Poppins', helvetica;
+   font-family: "Times New Roman", Times, serif;
     font-weight: 500;
     line-height: 16px;
     text-transform: uppercase;
@@ -240,6 +239,7 @@ body {
    background-color:#e0dfda;
     height: 100vh;
     width: 100%;
+	font-family: "Times New Roman", Times, serif;
   }
   
   
@@ -294,6 +294,7 @@ body {
     background:#e0dfda;
     padding-top: 190px;
 	border:1px;
+	font-family: "Times New Roman", Times, serif;
   }
   
   #about .div-img-bg {
@@ -311,8 +312,8 @@ body {
   }
   
   #about .about-descr .p-heading {
-    font-family: 'Playfair Display', serif;
-	font-style:italic;
+    /*font-family: 'Playfair Display', serif;*/
+	font-style:italic; 
     font-size: 25px;
     text-align: left;
   }
@@ -330,6 +331,7 @@ body {
 #skills {
     position: relative;
     padding-bottom: 50px;
+	font-family: "Times New Roman", Times, serif;
   }
   
   #skills .skills-list {
@@ -409,14 +411,20 @@ table {
 	padding :15px;
 }
 
+#journey{
+	font-family: "Times New Roman", Times, serif;
+}
 
+#project{
+	font-family: "Times New Roman", Times, serif;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-    height: auto;
+    height: auto; 
     width: 100%;
 	background-color:#e0dfda;
 	
