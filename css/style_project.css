@@ -314,7 +314,7 @@
 }
 .el:nth-child(4) .el__bg:before {
   transition-delay: 0.3s;
-  background-image: url("../image/aws.jpg");
+  background-color: #49524c
 }
 .el:nth-child(5) {
   transform: translate3d(420.83333%, 0, 0);
